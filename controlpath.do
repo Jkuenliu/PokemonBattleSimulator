@@ -1,0 +1,70 @@
+vlib work
+
+vlog FinalProject.v
+
+vsim controlpath
+
+log {/*}
+add wave {/*}
+
+force clock 1 0, 0 500 -repeat 1000 -cancel 100000
+
+#state reset
+force {reset} 0
+force {done_pikachu_qa} 0
+force {done_animate_qa} 0
+force {done_qa} 0
+force {done_meowth_HP} 0
+force {done_pikachu_HP} 0
+force {done_team_rocket} 0
+force {done_trainer} 0
+force {quick_attack} 0
+run 1ns
+
+#state draw_pikachu
+force {reset} 1
+force {done_pikachu_qa} 0
+force {done_animate_qa} 0
+force {done_qa} 0
+force {done_meowth_HP} 0
+force {done_pikachu_HP} 0
+force {done_team_rocket} 0
+force {done_trainer} 0
+force {quick_attack} 0
+run 1ns
+
+
+force {reset} 1
+force {done_pikachu_qa} 1
+force {done_animate_qa} 0
+force {done_qa} 0
+force {done_meowth_HP} 0
+force {done_pikachu_HP} 0
+force {done_team_rocket} 0
+force {done_trainer} 0
+force {quick_attack} 0
+run 1ns
+
+#state draw_hp_meowth
+force {reset} 1
+force {done_pikachu_qa} 0
+force {done_animate_qa} 0
+force {done_qa} 0
+force {done_meowth_HP} 0
+force {done_pikachu_HP} 0
+force {done_team_rocket} 0
+force {done_trainer} 0
+force {quick_attack} 0
+run 1ns
+
+
+force {reset} 1
+force {done_pikachu_qa} 0
+force {done_animate_qa} 0
+force {done_qa} 0;
+force {done_meowth_HP} 0
+force {done_pikachu_HP} 0
+force {done_team_rocket} 0
+force {done_trainer} 0
+force {quick_attack} 0
+run 1ns

@@ -1,0 +1,12 @@
+module thunderbolt();
+
+	drawThunderPickachu tb_pika(.x_(),
+										 .y_(), 
+										 .clock_all(), 
+										 .enable_all(), 
+										 .reset_all(), 
+										 .done(), 
+										 .out_x(), 
+										 .out_y(), 
+										 .out_colour());
+endmodule

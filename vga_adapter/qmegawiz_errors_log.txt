@@ -1,0 +1,19 @@
+
+
+//SRVC/Homes$/liujeffr/Desktop/part2/vga_adapter/vga_pll.v
+
+Nov 15 04PM:29:38>: Error in CNX file format.
+
+Error messages are listed in file
+//SRVC/Homes$/liujeffr/Desktop/part2/vga_adapter/vga_pll.cnxerr.
+
+Can't create the custom megafunction variation file(s)
+
+//SRVC/Homes$/liujeffr/Desktop/part2/vga_adapter/vga_pll.v
+
+Nov 15 04PM:30:10>: Error in CNX file format.
+
+Error messages are listed in file
+//SRVC/Homes$/liujeffr/Desktop/part2/vga_adapter/vga_pll.cnxerr.
+
+Can't create the custom megafunction variation file(s)
